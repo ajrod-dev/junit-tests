@@ -1,4 +1,6 @@
 import org.junit.Test;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import static org.junit.Assert.*;
 
@@ -12,6 +14,7 @@ public class StudentTest {
     @Test
     public void testStudentObj(){
         Student student = new Student(001, "Alex");
+        assertNull(null);
         assertNotNull(student);
     }
     @Test
